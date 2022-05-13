@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.brand {
+  margin-bottom: 1rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 40rem) {
+  .header {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .brand {
+    margin-bottom: 0;
+  }
+}
