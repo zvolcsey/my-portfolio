@@ -18,6 +18,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 10rem auto 8rem;
+}
+
 a {
   color: var(--main-color);
   text-decoration: none;
