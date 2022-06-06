@@ -8,8 +8,13 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100vh;
+}
+
 body {
   margin: 0;
+  height: 100vh;
   background: #2e2e2e;
   font-family: -apple-system, BlinkMacSystemFont, 'Poppins', 'Segoe UI',
     'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
@@ -21,7 +26,7 @@ body {
 #root {
   height: 100vh;
   display: grid;
-  grid-template-rows: 10rem auto 8rem;
+  grid-template-rows: 8rem auto 8rem;
 }
 
 a {
