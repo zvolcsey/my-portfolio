@@ -1,15 +1,15 @@
 .header {
   grid-area: 1;
+  padding: 1rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: #fff;
-  padding: 2rem 0;
 }
 
 .brand {
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 .nav-list {
