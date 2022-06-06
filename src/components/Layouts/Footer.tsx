@@ -18,17 +18,29 @@ const Footer: FC<{}> = () => {
           <a
             href='https://www.linkedin.com/in/zvolcsey'
             className={styles.link}
+            target='_blank'
+            rel='noreferrer noopener'
           >
             <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
           </a>
         </li>
         <li className={styles.item}>
-          <a href='https://github.com/zvolcsey' className={styles.link}>
+          <a
+            href='https://github.com/zvolcsey'
+            className={styles.link}
+            target='_blank'
+            rel='noreferrer noopener'
+          >
             <FontAwesomeIcon icon={faGithub} /> GitHub
           </a>
         </li>
         <li className={styles.item}>
-          <a href='https://codepen.io/zoltanv' className={styles.link}>
+          <a
+            href='https://codepen.io/zoltanv'
+            className={styles.link}
+            target='_blank'
+            rel='noreferrer noopener'
+          >
             <FontAwesomeIcon icon={faCodepen} /> CodePen
           </a>
         </li>
