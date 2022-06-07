@@ -4,15 +4,16 @@ import { faArrowRightLong, faEye } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import styles from './HomePage.module.css';
+import Badge from '../components/Badge/Badge';
 
 const HomePage: FC<{}> = () => {
   return (
     <div className={styles['home-page']}>
       <div className={styles.container}>
-        <span className={styles.badge}>Full Stack Developer</span>
+        <Badge>Full Stack Web Developer</Badge>
         <div className={styles['hero-text']}>
           <p>
-            <span>From</span> Client
+            <span>From</span> Client Side
           </p>
           <p>
             <span>To</span> 'under the hood'
@@ -26,7 +27,7 @@ const HomePage: FC<{}> = () => {
           </li>
           <li className={styles.item}>
             <Link to='/about' className={`${styles.link} ${styles.secondary}`}>
-              Who I am? <FontAwesomeIcon icon={faArrowRightLong} />
+              Who am I? <FontAwesomeIcon icon={faArrowRightLong} />
             </Link>
           </li>
         </ul>

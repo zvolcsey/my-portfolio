@@ -1,31 +1,25 @@
 .home-page {
-  display: grid;
-  place-items: center;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
   width: 90%;
-  max-width: 30rem;
-  text-align: center;
-  margin: auto;
-}
-
-.badge {
-  display: inline-block;
-  padding: 0.6rem 1rem;
-  border-bottom: 0.1rem solid #fff;
-  color: #fff;
-  letter-spacing: 0.2rem;
-  font-size: 0.8rem;
-  font-weight: 700;
-  text-transform: uppercase;
+  max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-text {
-  margin: 2.5rem 0;
+  text-align: center;
+  margin: 3.5rem 0;
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 700;
 }
 
@@ -42,7 +36,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   width: 60%;
   margin: auto;
 }
@@ -51,6 +45,7 @@
   position: relative;
   margin-bottom: 1rem;
   padding: 0.2rem 0;
+  text-align: center;
 }
 
 .item:last-of-type {
@@ -91,18 +86,12 @@
 }
 
 @media (min-width: 40rem) {
-  .container {
-    text-align: start;
-  }
-
   .hero-text {
     font-size: 3rem;
   }
 
   .actions {
     flex-direction: row;
-    justify-content: flex-start;
-    width: 100%;
   }
 
   .item {
