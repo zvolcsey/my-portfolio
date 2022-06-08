@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { faArrowRightLong, faEye } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -7,6 +7,9 @@ import styles from './HomePage.module.css';
 import Badge from '../components/Badge/Badge';
 
 const HomePage: FC<{}> = () => {
+  useEffect(() => {
+    document.title = 'Home | Zoltán Völcsey';
+  }, []);
   return (
     <div className={styles['home-page']}>
       <div className={styles.container}>
