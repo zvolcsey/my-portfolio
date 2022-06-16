@@ -1,0 +1,7 @@
+.item {
+  margin-right: 0.6rem;
+}
+
+.item:last-of-type {
+  margin: 0;
+}

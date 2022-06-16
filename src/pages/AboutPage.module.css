@@ -1,0 +1,96 @@
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: 2.5rem;
+}
+
+.items {
+  width: 90%;
+  max-width: 43rem;
+  margin: 2.5rem auto;
+}
+
+.item {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.item:last-of-type {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.question {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.right {
+  text-align: right;
+}
+
+.speech-bubble {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.4rem;
+  border: 0.1rem solid #fff;
+  background-color: #fff;
+  border-radius: 0.3rem;
+  position: relative;
+}
+
+.speech-bubble p {
+  line-height: 1.6;
+}
+
+.speech-bubble::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 1rem solid transparent;
+  bottom: -0.9rem;
+}
+
+.left-speech-bubble::before {
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid #fff;
+  transform: rotate(-45deg);
+  left: 3rem;
+}
+
+.right-speech-bubble::before {
+  border-left: 1rem solid #fff;
+  border-right: 1rem solid transparent;
+  transform: rotate(45deg);
+  right: 3rem;
+}
+
+.profile-picture {
+  margin-top: 1rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  border: 0.2rem solid var(--main-color);
+  background: url('../assets/me.JPG') center / cover;
+}
+
+.right-profile-picture {
+  align-self: flex-end;
+  transform: scaleX(-1);
+}
+
+@media (width > 90rem) {
+  .speech-bubble p {
+    font-size: 1.2rem;
+  }
+
+  .profile-picture {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+}

@@ -1,0 +1,56 @@
+.projects-page {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  max-width: 43rem;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: 2.5rem;
+}
+
+.container {
+  margin: 2rem auto;
+}
+
+.container > h2 {
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.divide {
+  width: 100%;
+  max-width: 43rem;
+}
+
+.other-projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.other-projects > span {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.item {
+  position: relative;
+  padding: 0.2rem;
+}

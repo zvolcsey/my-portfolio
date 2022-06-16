@@ -8,6 +8,7 @@ import {
   faGithub,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
+import ExternalLink from '../UI/ExternalLink';
 
 const Footer: FC<{}> = () => {
   return (
@@ -15,34 +16,28 @@ const Footer: FC<{}> = () => {
       <Brand className={styles.brand} />
       <ul className={styles.items}>
         <li className={styles.item}>
-          <a
+          <ExternalLink
             href='https://www.linkedin.com/in/zvolcsey'
             className={styles.link}
-            target='_blank'
-            rel='noreferrer noopener'
           >
             <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
-          </a>
+          </ExternalLink>
         </li>
         <li className={styles.item}>
-          <a
+          <ExternalLink
             href='https://github.com/zvolcsey'
             className={styles.link}
-            target='_blank'
-            rel='noreferrer noopener'
           >
             <FontAwesomeIcon icon={faGithub} /> GitHub
-          </a>
+          </ExternalLink>
         </li>
         <li className={styles.item}>
-          <a
+          <ExternalLink
             href='https://codepen.io/zoltanv'
             className={styles.link}
-            target='_blank'
-            rel='noreferrer noopener'
           >
             <FontAwesomeIcon icon={faCodepen} /> CodePen
-          </a>
+          </ExternalLink>
         </li>
       </ul>
     </footer>

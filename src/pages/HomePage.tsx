@@ -11,14 +11,14 @@ const HomePage: FC<{}> = () => {
     document.title = 'Home | Zoltán Völcsey';
   }, []);
   return (
-    <div className={styles['home-page']}>
+    <section className={styles['home-page']}>
       <div className={styles.container}>
-        <Badge>Full Stack Web Developer</Badge>
-        <div className={styles['hero-text']}>
-          <p>
+        <Badge className={styles.badge}>Full Stack Web Developer</Badge>
+        <div className={styles['hero-text-container']}>
+          <p className={styles['hero-text']}>
             <span>From</span> Client Side
           </p>
-          <p>
+          <p className={styles['hero-text']}>
             <span>To</span> 'under the hood'
           </p>
         </div>
@@ -35,7 +35,7 @@ const HomePage: FC<{}> = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </section>
   );
 };
 

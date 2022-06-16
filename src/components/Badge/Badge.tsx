@@ -2,10 +2,10 @@ import { FC, ReactNode } from 'react';
 
 import styles from './Badge.module.css';
 
-const Badge: FC<{ children: ReactNode }> = (props) => {
-  const { children } = props;
+const Badge: FC<{ className?: string; children: ReactNode }> = (props) => {
+  const { className, children } = props;
 
-  return <span className={styles.badge}>{children}</span>;
+  return <div className={`${styles.badge} ${className}`}>{children}</div>;
 };
 
 export default Badge;

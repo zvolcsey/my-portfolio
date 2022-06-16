@@ -1,0 +1,36 @@
+.divide {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.or {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--main-color);
+  text-transform: uppercase;
+  margin: 2rem 0;
+}
+
+.line {
+  width: 5rem;
+  height: 0.1rem;
+  color: #fff;
+  background: #fff;
+  border: 0.1rem solid #fff;
+}
+
+@media (min-width: 40rem) {
+  .line {
+    width: 10rem;
+  }
+}
+
+@media (width > 90rem) {
+  .or {
+    font-size: 1.8rem;
+  }
+}

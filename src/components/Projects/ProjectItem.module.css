@@ -1,0 +1,58 @@
+.item {
+  padding: 0.6rem;
+  width: 100%;
+  max-width: 20rem;
+  height: 22rem;
+  text-align: center;
+}
+
+.item header {
+  height: 2.4rem;
+}
+
+.badge {
+  font-size: 0.8rem;
+}
+
+.content {
+  height: 13.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.content > h3 {
+  color: var(--main-color);
+}
+
+.technologies-list {
+  margin-bottom: auto 0;
+}
+
+.item footer {
+  height: 6rem;
+}
+
+@media (min-width: 40rem) {
+  .item {
+    width: 20rem;
+  }
+}
+
+@media (width > 90rem) {
+  .item {
+    height: 30rem;
+  }
+
+  .badge {
+    font-size: 1.2rem;
+  }
+
+  .content {
+    height: 20rem;
+  }
+
+  .technologies-list {
+    font-size: 1.2rem;
+  }
+}
