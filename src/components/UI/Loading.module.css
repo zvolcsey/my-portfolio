@@ -1,0 +1,40 @@
+.loading-container {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.circle {
+  display: inline-block;
+  background: var(--main-color);
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  margin-right: 0.8rem;
+  animation: circle-animation infinite 1s ease-in-out;
+}
+
+.circle:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.circle:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.circle:last-of-type {
+  margin: 0;
+}
+
+@keyframes circle-animation {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(1rem);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
