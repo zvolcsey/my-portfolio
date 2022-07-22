@@ -1,0 +1,8 @@
+.item {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.item:last-of-type {
+  margin: 0;
+}

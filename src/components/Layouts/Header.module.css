@@ -1,6 +1,6 @@
 .header {
+  width: 100%;
   grid-area: 1;
-  padding: 1rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,7 +9,7 @@
 }
 
 .brand {
-  margin: 1rem 0;
+  margin: 1.25rem 0;
 }
 
 .nav-list {
@@ -23,20 +23,12 @@
 @media (min-width: 48rem) {
   .header {
     flex-direction: row;
-    justify-content: space-between;
-    margin: 0 2rem;
+    justify-content: space-around;
+    margin: 0 auto;
     padding: 2rem 0;
   }
 
   .brand {
     margin: 0;
-  }
-}
-
-@media (min-width: 64rem) {
-  .header {
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 3rem 0;
   }
 }

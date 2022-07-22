@@ -1,41 +1,40 @@
 .item {
+  position: relative;
+  top: -4rem;
   padding: 0.6rem;
-  width: 100%;
-  max-width: 20rem;
   height: 22rem;
-  text-align: center;
-}
-
-.item header {
-  height: 2.4rem;
+  border: 0.2rem solid var(--main-color);
+  border-radius: 0.6rem;
+  box-shadow: 0.1rem 0.1rem 0.8rem #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .badge {
+  left: 50%;
+  transform: translateX(-50%);
   font-size: 0.8rem;
 }
 
 .content {
-  height: 13.6rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  height: 100%;
 }
 
 .content > h3 {
   color: var(--main-color);
+  text-align: center;
+  margin: 2rem 0;
 }
 
-.technologies-list {
-  margin-bottom: auto 0;
-}
-
-.item footer {
-  height: 6rem;
-}
-
-@media (min-width: 40rem) {
+@media (min-width: 26rem) {
   .item {
     width: 20rem;
+  }
+
+  .content > h3 {
+    font-size: 1.4rem;
   }
 }
 

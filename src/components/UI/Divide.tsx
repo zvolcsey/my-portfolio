@@ -11,7 +11,7 @@ const Divide: FC<{
   return (
     <div className={`${styles.divide} ${className}`}>
       <div className={styles.line}></div>
-      <div className={styles.or}>{text}</div>
+      <div className={styles.text}>{text}</div>
       <div className={styles.line}></div>
     </div>
   );

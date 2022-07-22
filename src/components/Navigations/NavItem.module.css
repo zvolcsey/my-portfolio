@@ -33,3 +33,9 @@
 .activeLink::before {
   background: #fff;
 }
+
+@media (min-width: 90rem) {
+  .link {
+    font-size: 1.2rem;
+  }
+}

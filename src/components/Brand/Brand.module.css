@@ -1,6 +1,6 @@
 .brand {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 0.2rem;
 }
 
@@ -12,4 +12,16 @@
 .brand:focus-visible {
   outline: 0.1rem solid var(--main-color);
   border-radius: 0.2rem;
+}
+
+@media (min-width: 48rem) {
+  .brand {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 90rem) {
+  .brand {
+    font-size: 2rem;
+  }
 }

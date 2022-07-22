@@ -1,0 +1,68 @@
+.answer-container {
+  position: relative;
+}
+
+.speech-bubble {
+  position: relative;
+  padding: 3.5rem 1rem 3rem 1rem;
+  border: 0.1rem solid #fff;
+  background-color: #fff;
+  border-radius: 0.3rem;
+}
+
+.speech-bubble p {
+  line-height: 1.6;
+}
+
+.speech-bubble::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 1rem solid transparent;
+  bottom: -0.9rem;
+}
+
+.left-speech-bubble::before {
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid #fff;
+  transform: rotate(-45deg);
+  left: 3rem;
+}
+
+.right-speech-bubble::before {
+  border-left: 1rem solid #fff;
+  border-right: 1rem solid transparent;
+  transform: rotate(45deg);
+  right: 3rem;
+}
+
+.profile-picture {
+  position: absolute;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  border: 0.2rem solid var(--main-color);
+  background: url('../../assets/me.jpg') center / cover;
+  z-index: 2;
+}
+
+.left-profile-picture {
+  transform: translate(1.5rem, -2.25rem);
+}
+
+.right-profile-picture {
+  right: 0;
+  transform: scaleX(-1) translate(1.5rem, -2.25rem);
+}
+
+@media (width > 90rem) {
+  .speech-bubble p {
+    font-size: 1.2rem;
+  }
+
+  .profile-picture {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+}

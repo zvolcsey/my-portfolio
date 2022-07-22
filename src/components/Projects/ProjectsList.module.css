@@ -1,17 +1,7 @@
 .items {
-  width: 100%;
-  margin: 0 auto;
+  margin: 0 1rem;
+  list-style: none;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  list-style: none;
-  gap: 1rem;
-}
-
-@media (min-width: 43rem) {
-  .items {
-    flex-direction: row;
-  }
 }

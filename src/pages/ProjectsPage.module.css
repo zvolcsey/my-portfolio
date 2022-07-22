@@ -1,53 +1,25 @@
-.projects-page {
-  width: 90%;
-  height: 100%;
-  margin: 0 auto;
-  padding-bottom: 3rem;
-  position: relative;
+.container:first-of-type {
+  margin-top: 6rem;
 }
 
-.container {
-  width: 100%;
-  max-width: 43rem;
-  margin: 0 auto;
-}
-
-h1 {
-  text-align: center;
-  color: #fff;
-  margin-top: 2.5rem;
-}
-
-.container {
-  margin: 2rem auto;
-}
-
-.container > h2 {
-  text-align: center;
-  text-transform: capitalize;
-  color: #fff;
-  margin-bottom: 2rem;
+.container:last-of-type {
+  margin-bottom: 4rem;
 }
 
 .divide {
-  width: 100%;
   max-width: 43rem;
+  margin: 1.6rem auto 1rem auto;
 }
 
 .other-projects {
   display: flex;
-  flex-direction: column;
+  padding: 2rem 0;
+  list-style: none;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
   font-size: 1rem;
   font-weight: 300;
-}
-
-.other-projects > span {
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 700;
 }
 
 .item {

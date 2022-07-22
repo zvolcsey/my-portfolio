@@ -1,9 +1,14 @@
-import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FC, useEffect } from 'react';
-import ExternalLink from '../components/UI/ExternalLink';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 import styles from './AboutPage.module.css';
+import ExternalLink from '../components/UI/ExternalLink';
+import Container from '../components/UI/Container';
+import QandAItems from '../components/QandA/QandAItems';
+import Answer from '../components/QandA/Answer';
+import QandAItem from '../components/QandA/QandAItem';
 
 const AboutPage: FC<{}> = () => {
   useEffect(() => {
@@ -11,144 +16,71 @@ const AboutPage: FC<{}> = () => {
   }, []);
 
   return (
-    <>
-      <h1>About Me</h1>
-      <ul className={styles.items}>
-        <li className={styles.item}>
-          <h2 className={`${styles.question} ${styles.left}`}>Who am I?</h2>
-          <div className={styles.container}>
-            <div
-              className={`${styles['speech-bubble']} ${styles['left-speech-bubble']}`}
-            >
-              <p>Hello, my friend!</p>
-              <p>
-                {' '}
-                My name is <span>Zoltán Völcsey.</span>
-              </p>
-              <p>
-                I am a <span>full stack web developer</span>, who is based in
-                Győr, Hungary.
-              </p>
-            </div>
-            <div
-              className={`${styles['profile-picture']} ${styles['left-profile-picture']}`}
-            ></div>
-          </div>
-        </li>
-        <li className={styles.item}>
-          <h2 className={`${styles.question} ${styles.right}`}>
-            Why did I choose web development?
-          </h2>
-          <div className={styles.container}>
-            <div
-              className={`${styles['speech-bubble']} ${styles['right-speech-bubble']}`}
-            >
-              <p>
-                After many trying and many failures the programming seems like a
-                good choice. Important part of the future. The web is a good
-                start. Design a page and understand what is under the hood, so I
-                chose the full stack development.
-              </p>
-            </div>
-            <div
-              className={`${styles['profile-picture']} ${styles['right-profile-picture']}`}
-            ></div>
-          </div>
-        </li>
-        <li className={styles.item}>
-          <h2 className={`${styles.question} ${styles.left}`}>
-            Which programming languages do I have experience?
-          </h2>
-          <div className={styles.container}>
-            <div
-              className={`${styles['speech-bubble']} ${styles['left-speech-bubble']}`}
-            >
-              <p>
-                My main language is <span>JavaScript</span> and I like to use{' '}
-                <span>TypeScript</span> for development.
-              </p>
-              <p>
-                I learned <span>HTML</span> and <span>CSS</span> of course.
-              </p>
-              <p>
-                From frameworks I chose <span>React</span> at first, because it
-                is the most popular. For state management I learned{' '}
-                <span>Redux</span> and I like to use <span>Redux Toolkit</span>{' '}
-                too.
-              </p>
-              <p>
-                For the backend I learned <span>NodeJS</span> and{' '}
-                <span>Express</span>.
-              </p>
-              <p>
-                I learned about <span>SQL</span> and <span>NoSQL</span>{' '}
-                databases. I chose <span>PostgreSQL</span> at first.
-              </p>
-            </div>
-            <div
-              className={`${styles['profile-picture']} ${styles['left-profile-picture']}`}
-            ></div>
-          </div>
-        </li>
-        <li className={styles.item}>
-          <h2 className={`${styles.question} ${styles.right}`}>
-            What do I learn about testing?
-          </h2>
-          <div className={styles.container}>
-            <div
-              className={`${styles['speech-bubble']} ${styles['right-speech-bubble']}`}
-            >
-              <p>
-                I learned the basics about <span>Unit Testing</span>,{' '}
-                <span>Intergration Testing</span> and <span>E2E Testing</span>.
-              </p>
-              <p>
-                I use <span>Vitest</span> and for the React the built-in testing
-                dependecies.
-              </p>
-            </div>
-            <div
-              className={`${styles['profile-picture']} ${styles['right-profile-picture']}`}
-            ></div>
-          </div>
-        </li>
-        <li className={styles.item}>
-          <h2 className={`${styles.question} ${styles.left}`}>
-            What did I learn yet?
-          </h2>
-          <div className={styles.container}>
-            <div
-              className={`${styles['speech-bubble']} ${styles['left-speech-bubble']}`}
-            >
-              <p>
-                For the version control I use <span>Git and GitHub</span>.
-              </p>
-              <p>
-                For the web development is very important the security. I
-                learned about Web Security from the videos of
-                <ExternalLink
-                  href='https://web.stanford.edu/class/cs253'
-                  className={styles.link}
-                >
-                  <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-                  CS 253 Web Security Course
-                </ExternalLink>{' '}
-                in Stanford University.
-              </p>
-              <p>
-                I learned about <span>Webpack</span>,{' '}
-                <span>TCP/IP Networking</span>, <span>Linux basics</span> and{' '}
-                <span>Cloud basics</span> too.
-              </p>
-              <p></p>
-            </div>
-            <div
-              className={`${styles['profile-picture']} ${styles['left-profile-picture']}`}
-            ></div>
-          </div>
-        </li>
-      </ul>
-    </>
+    <Container titlePosition='top' className={styles.container}>
+      <h2>Introduction</h2>
+      <QandAItems>
+        <QandAItem>
+          <h3 className={styles.question}>Who am I?</h3>
+          <Answer>
+            <p>
+              Hello! I am Zoltán Völcsey a junior full stack web developer with
+              experience to build webapps from design to backend &#40;and to the
+              databases&#41;.
+            </p>
+          </Answer>
+        </QandAItem>
+        <QandAItem>
+          <h3 className={styles.question}>
+            What aspects am I most passionate about?
+          </h3>
+          <Answer speechBubblePosition='left' profilePosition='left'>
+            <p>
+              I am with passion to create something and to solve problems. I
+              would like to learn reqularly something new. I like the lifelong
+              learning.
+            </p>
+          </Answer>
+        </QandAItem>
+        <QandAItem>
+          <h3 className={styles.question}>
+            What was my biggest professional and personal accomplishment?
+          </h3>
+          <Answer>
+            <p>
+              With a lots of work I learned the necessary requirements of full
+              stack web development and I could develop a full stack{' '}
+              <ExternalLink href='https://zvolcsey-conduit-fullstack.onrender.com'>
+                Medium.com&nbsp;clone
+                <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+              </ExternalLink>{' '}
+              project.
+            </p>
+            <p>
+              In my personal life I could to add to my weekly routine the
+              reqularly workout and yoga. As a result I can support my physical
+              and mental health.
+            </p>
+          </Answer>
+        </QandAItem>
+        <QandAItem>
+          <h3 className={styles.question}>What do I looking for right now?</h3>
+          <Answer speechBubblePosition='left' profilePosition='left'>
+            <p>
+              Now I am ready to get experience in a company and to build with my
+              future co-workers beatuiful and secure websites and webapps.{' '}
+            </p>
+            <p>
+              Reach out me on
+              <ExternalLink href='https://www.linkedin.com/in/zvolcsey'>
+                <FontAwesomeIcon icon={faLinkedin} />
+                &nbsp;LinkedIn
+              </ExternalLink>
+              .
+            </p>
+          </Answer>
+        </QandAItem>
+      </QandAItems>
+    </Container>
   );
 };
 

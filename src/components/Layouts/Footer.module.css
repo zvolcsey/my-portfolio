@@ -25,21 +25,13 @@
   margin: 0;
 }
 
-.link {
-  padding: 0.2rem;
-}
-
 @media (min-width: 48rem) {
   .items {
     flex-direction: row;
   }
 
   .item {
-    margin-right: 0.2rem;
+    margin-right: 0.6rem;
     margin-bottom: 0;
-  }
-
-  .link {
-    margin: 0 1rem 0 0;
   }
 }
