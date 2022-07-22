@@ -43,7 +43,7 @@
   height: 4.5rem;
   border-radius: 50%;
   border: 0.2rem solid var(--main-color);
-  background: url('../../assets/me.jpg') center / cover;
+  background: var(--main-color) url('../../assets/me.jpg') center / cover;
   z-index: 2;
 }
 
