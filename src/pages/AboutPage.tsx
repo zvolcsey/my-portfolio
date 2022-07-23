@@ -24,8 +24,7 @@ const AboutPage: FC<{}> = () => {
           <Answer>
             <p>
               Hello! I am Zoltán Völcsey a junior full stack web developer with
-              experience to build webapps from design to backend &#40;and to the
-              databases&#41;.
+              experience to build webapps from design to backend.
             </p>
           </Answer>
         </QandAItem>
@@ -35,9 +34,9 @@ const AboutPage: FC<{}> = () => {
           </h3>
           <Answer speechBubblePosition='left' profilePosition='left'>
             <p>
-              I am with passion to create something and to solve problems. I
-              would like to learn reqularly something new. I like the lifelong
-              learning.
+              I am passionate to create something that people eyjoy using and
+              solves their problems. I like web development, because it allows
+              me to learn new things constantly.
             </p>
           </Answer>
         </QandAItem>
@@ -47,8 +46,8 @@ const AboutPage: FC<{}> = () => {
           </h3>
           <Answer>
             <p>
-              With a lots of work I learned the necessary requirements of full
-              stack web development and I could develop a full stack{' '}
+              I am a self-taught web developer whose learning efforts culminated
+              in building a full stack
               <ExternalLink href='https://zvolcsey-conduit-fullstack.onrender.com'>
                 Medium.com&nbsp;clone
                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
@@ -56,9 +55,8 @@ const AboutPage: FC<{}> = () => {
               project.
             </p>
             <p>
-              In my personal life I could to add to my weekly routine the
-              reqularly workout and yoga. As a result I can support my physical
-              and mental health.
+              In my personal life I am proud of my workout and yoga routine that
+              helps me support my physical and mental health.
             </p>
           </Answer>
         </QandAItem>
@@ -66,16 +64,17 @@ const AboutPage: FC<{}> = () => {
           <h3 className={styles.question}>What do I looking for right now?</h3>
           <Answer speechBubblePosition='left' profilePosition='left'>
             <p>
-              Now I am ready to get experience in a company and to build with my
-              future co-workers beatuiful and secure websites and webapps.{' '}
+              I am looking for my first professional opportunity as a full stack
+              web developer to build beautiful and secure web apps and to
+              continue developing my skills with my future co-workers.
             </p>
             <p>
-              Reach out me on
+              Please contact me on
               <ExternalLink href='https://www.linkedin.com/in/zvolcsey'>
                 <FontAwesomeIcon icon={faLinkedin} />
                 &nbsp;LinkedIn
               </ExternalLink>
-              .
+              about opportunities.
             </p>
           </Answer>
         </QandAItem>
