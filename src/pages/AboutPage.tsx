@@ -16,7 +16,7 @@ const AboutPage: FC<{}> = () => {
   }, []);
 
   return (
-    <Container titlePosition='top' className={styles.container}>
+    <Container className={styles.container}>
       <h2>Introduction</h2>
       <QandAItems>
         <QandAItem>

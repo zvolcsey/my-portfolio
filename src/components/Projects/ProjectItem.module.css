@@ -1,9 +1,10 @@
 .item {
   position: relative;
-  top: -4rem;
+  top: -6rem;
   padding: 0.6rem;
   height: 22rem;
   border: 0.2rem solid var(--main-color);
+  background-color: var(--container-background);
   border-radius: 0.6rem;
   box-shadow: 0.1rem 0.1rem 0.8rem #000;
   display: flex;

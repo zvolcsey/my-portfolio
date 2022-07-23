@@ -4,20 +4,12 @@ import styles from './Container.module.css';
 
 const Container: FC<{
   children: ReactNode;
-  titlePosition?: 'top' | 'bottom';
   className?: string;
 }> = (props) => {
-  const { children, titlePosition, className } = props;
-
-  const titlePositionStyle =
-    titlePosition === 'top' ? styles['title-top'] : styles['title-bottom'];
+  const { children, className } = props;
 
   return (
-    <section
-      className={`${styles.container} ${titlePositionStyle} ${className}`}
-    >
-      {children}
-    </section>
+    <section className={`${styles.container} ${className}`}>{children}</section>
   );
 };
 

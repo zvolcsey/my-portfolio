@@ -17,7 +17,7 @@ const ProjectsPage: FC<{}> = () => {
   return (
     <>
       <Container className={styles.container}>
-        <h2>Let's Try It</h2>
+        <h2 className={styles['projects-title']}>My deployed projects</h2>
         <ProjectsList items={projects} />
       </Container>
       <Divide text='OR' className={styles.divide} />
