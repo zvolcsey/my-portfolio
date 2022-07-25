@@ -65,9 +65,8 @@ const AboutPage: FC<{}> = () => {
           <Answer speechBubblePosition='left' profilePosition='left'>
             <p>
               I am looking for my first professional opportunity as a full stack
-              web developer in Hungary/Remote CET. I would like to build
-              beautiful and secure web apps and to continue developing my skills
-              with my future co-workers.
+              web developer to build beautiful and secure web apps and to
+              continue developing my skills with my future co-workers.
             </p>
             <p>
               Please contact me on
