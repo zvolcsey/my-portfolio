@@ -34,7 +34,7 @@ const AboutPage: FC<{}> = () => {
           </h3>
           <Answer speechBubblePosition='left' profilePosition='left'>
             <p>
-              I am passionate to create something that people eyjoy using and
+              I am passionate to create something that people enjoy using and
               solves their problems. I like web development, because it allows
               me to learn new things constantly.
             </p>
@@ -61,12 +61,13 @@ const AboutPage: FC<{}> = () => {
           </Answer>
         </QandAItem>
         <QandAItem>
-          <h3 className={styles.question}>What do I looking for right now?</h3>
+          <h3 className={styles.question}>What am I looking for right now?</h3>
           <Answer speechBubblePosition='left' profilePosition='left'>
             <p>
               I am looking for my first professional opportunity as a full stack
-              web developer to build beautiful and secure web apps and to
-              continue developing my skills with my future co-workers.
+              web developer in Hungary/Remote CET. I would like to build
+              beautiful and secure web apps and to continue developing my skills
+              with my future co-workers.
             </p>
             <p>
               Please contact me on
