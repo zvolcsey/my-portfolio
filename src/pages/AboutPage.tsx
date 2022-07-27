@@ -1,6 +1,10 @@
 import { FC, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import {
+  faLinkedin,
+  faCodepen,
+  faGithub,
+} from '@fortawesome/free-brands-svg-icons';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 import styles from './AboutPage.module.css';
@@ -24,8 +28,9 @@ const AboutPage: FC<{}> = () => {
           <Answer>
             <p>
               Hello! I am Zoltán Völcsey a junior full stack web developer with
-              experience to build webapps from design to backend.
+              experience to build web apps from design to backend.
             </p>
+            <p>I live in Hungary.</p>
           </Answer>
         </QandAItem>
         <QandAItem>
@@ -55,6 +60,23 @@ const AboutPage: FC<{}> = () => {
               project.
             </p>
             <p>
+              You can also check out smaller projects on my{' '}
+              <ExternalLink
+                href='https://github.com/zvolcsey'
+                className={styles.link}
+              >
+                <FontAwesomeIcon icon={faGithub} /> GitHub
+              </ExternalLink>{' '}
+              and{' '}
+              <ExternalLink
+                href='https://codepen.io/zoltanv'
+                className={styles.link}
+              >
+                <FontAwesomeIcon icon={faCodepen} /> CodePen
+              </ExternalLink>{' '}
+              accounts.
+            </p>
+            <p>
               In my personal life I am proud of my workout and yoga routine that
               helps me support my physical and mental health.
             </p>
@@ -67,6 +89,10 @@ const AboutPage: FC<{}> = () => {
               I am looking for my first professional opportunity as a full stack
               web developer to build beautiful and secure web apps and to
               continue developing my skills with my future co-workers.
+            </p>
+            <p>
+              I am looking for opportunities in Hungary or remote in CET time
+              zone.
             </p>
             <p>
               Please contact me on

@@ -11,7 +11,7 @@ const HeroSection: FC<{}> = () => {
     <section className={styles['hero-section']}>
       <Badge className={styles.badge}>Full Stack Web Developer</Badge>
       <h1 className={`${styles['hero-text']} ${styles.title}`}>
-        <span className={styles.block}>Build</span> beautiful and secure
+        <span className={styles.block}>Building</span> beautiful and secure
         <span
           className={`${styles.block} ${styles.highlight} ${styles.rotate}`}
         >
