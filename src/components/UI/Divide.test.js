@@ -5,14 +5,18 @@ it('renders Divide component with the text AND', () => {
   // Arrange
   render(<Divide text="AND" />);
 
-  // Arrange
-  expect(screen.getByText(/AND/i));
+  const text = screen.getByText(/AND/i).textContent;
+
+  // Assert
+  expect(text).toBe('AND');
 });
 
 it('renders Divide component with the text OR', () => {
   // Arrange
   render(<Divide text="OR" />);
 
-  // Arrange
-  expect(screen.getByText(/OR/i));
+  const text = screen.getByText(/OR/i).textContent;
+
+  // Assert
+  expect(text).toBe('OR');
 });

@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from './HeroSection.module.css';
 import Badge from '../Badge/Badge';
 
-const HeroSection: FC<{}> = () => {
+const HeroSection: FC<Record<string, never>> = () => {
   return (
     <section className={styles['hero-section']}>
       <Badge className={styles.badge}>Full Stack Web Developer</Badge>

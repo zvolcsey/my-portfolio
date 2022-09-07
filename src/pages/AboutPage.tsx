@@ -14,7 +14,7 @@ import QandAItems from '../components/QandA/QandAItems';
 import Answer from '../components/QandA/Answer';
 import QandAItem from '../components/QandA/QandAItem';
 
-const AboutPage: FC<{}> = () => {
+const AboutPage: FC<Record<string, never>> = () => {
   useEffect(() => {
     document.title = 'About Me | Zoltán Völcsey';
   }, []);

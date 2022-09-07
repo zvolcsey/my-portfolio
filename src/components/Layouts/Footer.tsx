@@ -10,7 +10,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import ExternalLink from '../UI/ExternalLink';
 
-const Footer: FC<{}> = () => {
+const Footer: FC<Record<string, never>> = () => {
   return (
     <footer className={styles.footer}>
       <Brand className={styles.brand} />

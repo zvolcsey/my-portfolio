@@ -4,7 +4,7 @@ import NavItem from '../Navigations/NavItem';
 
 import styles from './Header.module.css';
 
-const Header: FC<{}> = () => {
+const Header: FC<Record<string, never>> = () => {
   return (
     <header className={styles.header}>
       <Brand className={styles.brand} />

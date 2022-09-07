@@ -14,7 +14,7 @@ const AboutPage = lazy(() => {
   return import('./pages/AboutPage');
 });
 
-const App: FC<{}> = () => {
+const App: FC<Record<string, never>> = () => {
   const routes = (
     <Routes>
       <Route path="/" element={<Layout />}>

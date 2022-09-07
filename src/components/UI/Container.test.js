@@ -9,6 +9,8 @@ it('renders Container component with the provided children built-in component', 
     </Container>
   );
 
-  // Arrange
-  expect(screen.getByText(/hello world!/i));
+  const text = screen.getByText(/hello world!/i).textContent;
+
+  // Assert
+  expect(text).toBe('Hello World!');
 });

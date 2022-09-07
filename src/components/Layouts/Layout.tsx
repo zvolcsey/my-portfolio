@@ -6,7 +6,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Loading from '../UI/Loading';
 
-const Layout: FC<{}> = () => {
+const Layout: FC<Record<string, never>> = () => {
   return (
     <>
       <Header />
