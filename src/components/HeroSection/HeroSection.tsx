@@ -23,12 +23,12 @@ const HeroSection: FC<{}> = () => {
       </h2>
       <ul className={styles.actions}>
         <li className={styles.item}>
-          <Link to='/projects' className={`${styles.link} ${styles.primary}`}>
+          <Link to="/projects" className={`${styles.link} ${styles.primary}`}>
             <FontAwesomeIcon icon={faEye} /> See my projects
           </Link>
         </li>
         <li className={styles.item}>
-          <Link to='/about' className={`${styles.link} ${styles.secondary}`}>
+          <Link to="/about" className={`${styles.link} ${styles.secondary}`}>
             Who am I? <FontAwesomeIcon icon={faArrowRightLong} />
           </Link>
         </li>

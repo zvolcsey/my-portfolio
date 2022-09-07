@@ -7,7 +7,7 @@ const Brand: FC<{ className?: string }> = (props) => {
   const { className } = props;
 
   return (
-    <Link to='/' className={`${styles.brand} ${className}`}>
+    <Link to="/" className={`${styles.brand} ${className}`}>
       Zoltán Völcsey
     </Link>
   );

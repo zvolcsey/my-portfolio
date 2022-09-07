@@ -12,7 +12,7 @@ const ExternalLink: FC<{
   return (
     <a
       href={href}
-      target='_blank'
+      target="_blank"
       rel={'noreferrer noopener'}
       className={`${styles.link} ${className}`}
     >

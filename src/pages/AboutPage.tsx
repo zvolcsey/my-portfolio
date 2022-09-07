@@ -37,7 +37,7 @@ const AboutPage: FC<{}> = () => {
           <h3 className={styles.question}>
             What aspects am I most passionate about?
           </h3>
-          <Answer speechBubblePosition='left' profilePosition='left'>
+          <Answer speechBubblePosition="left" profilePosition="left">
             <p>
               I am passionate to create something that people enjoy using and
               solves their problems. I like web development, because it allows
@@ -53,7 +53,7 @@ const AboutPage: FC<{}> = () => {
             <p>
               I am a self-taught web developer whose learning efforts culminated
               in building a full stack
-              <ExternalLink href='https://zvolcsey-conduit-fullstack.onrender.com'>
+              <ExternalLink href="https://zvolcsey-conduit-fullstack.onrender.com">
                 Medium.com&nbsp;clone
                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
               </ExternalLink>{' '}
@@ -62,14 +62,14 @@ const AboutPage: FC<{}> = () => {
             <p>
               You can also check out smaller projects on my{' '}
               <ExternalLink
-                href='https://github.com/zvolcsey'
+                href="https://github.com/zvolcsey"
                 className={styles.link}
               >
                 <FontAwesomeIcon icon={faGithub} /> GitHub
               </ExternalLink>{' '}
               and{' '}
               <ExternalLink
-                href='https://codepen.io/zoltanv'
+                href="https://codepen.io/zoltanv"
                 className={styles.link}
               >
                 <FontAwesomeIcon icon={faCodepen} /> CodePen
@@ -84,7 +84,7 @@ const AboutPage: FC<{}> = () => {
         </QandAItem>
         <QandAItem>
           <h3 className={styles.question}>What am I looking for right now?</h3>
-          <Answer speechBubblePosition='left' profilePosition='left'>
+          <Answer speechBubblePosition="left" profilePosition="left">
             <p>
               I am looking for my first professional opportunity as a full stack
               web developer to build beautiful and secure web apps and to
@@ -96,7 +96,7 @@ const AboutPage: FC<{}> = () => {
             </p>
             <p>
               Please contact me on
-              <ExternalLink href='https://www.linkedin.com/in/zvolcsey'>
+              <ExternalLink href="https://www.linkedin.com/in/zvolcsey">
                 <FontAwesomeIcon icon={faLinkedin} />
                 &nbsp;LinkedIn
               </ExternalLink>

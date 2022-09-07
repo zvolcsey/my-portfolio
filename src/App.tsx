@@ -17,10 +17,10 @@ const AboutPage = lazy(() => {
 const App: FC<{}> = () => {
   const routes = (
     <Routes>
-      <Route path='/' element={<Layout />}>
+      <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
-        <Route path='/projects' element={<ProjectsPage />} />
-        <Route path='/about' element={<AboutPage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/about" element={<AboutPage />} />
       </Route>
     </Routes>
   );

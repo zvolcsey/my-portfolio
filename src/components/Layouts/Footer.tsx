@@ -17,7 +17,7 @@ const Footer: FC<{}> = () => {
       <ul className={styles.items}>
         <li className={styles.item}>
           <ExternalLink
-            href='https://www.linkedin.com/in/zvolcsey'
+            href="https://www.linkedin.com/in/zvolcsey"
             className={styles.link}
           >
             <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
@@ -25,7 +25,7 @@ const Footer: FC<{}> = () => {
         </li>
         <li className={styles.item}>
           <ExternalLink
-            href='https://github.com/zvolcsey'
+            href="https://github.com/zvolcsey"
             className={styles.link}
           >
             <FontAwesomeIcon icon={faGithub} /> GitHub
@@ -33,7 +33,7 @@ const Footer: FC<{}> = () => {
         </li>
         <li className={styles.item}>
           <ExternalLink
-            href='https://codepen.io/zoltanv'
+            href="https://codepen.io/zoltanv"
             className={styles.link}
           >
             <FontAwesomeIcon icon={faCodepen} /> CodePen

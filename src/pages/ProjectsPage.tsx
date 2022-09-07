@@ -20,7 +20,7 @@ const ProjectsPage: FC<{}> = () => {
         <h2 className={styles['projects-title']}>My deployed projects</h2>
         <ProjectsList items={projects} />
       </Container>
-      <Divide text='OR' className={styles.divide} />
+      <Divide text="OR" className={styles.divide} />
       <Container className={styles.container}>
         <h2>See my other projects</h2>
         <ul className={styles['other-projects']}>
@@ -31,7 +31,7 @@ const ProjectsPage: FC<{}> = () => {
             </ExternalLink>
           </li>
           <li className={styles.item}>
-            <ExternalLink href='https://codepen.io/zoltanv'>
+            <ExternalLink href="https://codepen.io/zoltanv">
               <FontAwesomeIcon icon={faCodepen} />
               &nbsp;CodePen
             </ExternalLink>
