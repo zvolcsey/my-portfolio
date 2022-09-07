@@ -21,10 +21,22 @@
     "typescript": "^4.6.4",
     "web-vitals": "^2.1.4"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "prettier:check": "prettier --check ./src/",
+    "prettier:write": "prettier --write ./src/",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -46,6 +58,9 @@
     ]
   },
   "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "2.7.1",
     "react-scripts": "^5.0.1"
   }
 }
