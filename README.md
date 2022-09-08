@@ -64,17 +64,27 @@
   - `fortawesome/free-brands-svg-icons` - For using free brands icons from Font Awesome package.
   - `fortawesome/react-fontawesome` - For using FontAwesomeIcon component.
 - Testing
+  - `jest`
   - `@types/jest`
   - `testing-library/jest-dom`
   - `testing-library/react`
   - `testing-library/user-event`
+- Prettier
+  - `prettier`
+- ESLint
+  - `@typescript-eslint/eslint-plugin`
+  - `@typescript-eslint/parser`
+  - `eslint`
+- Prettier and ESLint
+  - `eslint-config-prettier`
+  - `@types/eslint-config-prettier`
 
 ## Available Scripts
 
-  - `npm start` - starts the app in development mode
-  - `npm build` - builds the app for production to the `/build` folder
-  - `npm test` - launches the test-runner in the interactive watch mode
-  - `npm eject` - removes the single build dependency from the project, **As contributor you do NOT have to ever use this scripts!**
+- `npm start` - starts the app in development mode
+- `npm build` - builds the app for production to the `/build` folder
+- `npm test` - launches the test-runner in the interactive watch mode
+- `npm eject` - removes the single build dependency from the project, **As contributor you do NOT have to ever use this scripts!**
 
 ## Run locally
 
@@ -92,5 +102,3 @@ The project use 3000.
 ## License
 
 MIT
-
-
