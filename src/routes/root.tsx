@@ -1,7 +1,7 @@
-import { FC, Suspense } from "react";
-import { Form, Outlet } from "react-router-dom";
+import { Suspense } from "react";
+import { Outlet } from "react-router-dom";
 
-import styles from './Root.module.css';
+import styles from './root.module.css';
 import Header from "../components/Layouts/Header";
 import Loading from "../components/UI/Loading";
 import Footer from "../components/Layouts/Footer";
