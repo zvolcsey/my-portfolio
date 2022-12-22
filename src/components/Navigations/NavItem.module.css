@@ -31,7 +31,7 @@
 }
 
 .activeLink::before {
-  background: #fff;
+  background: var(--main-color);
 }
 
 @media (min-width: 90rem) {

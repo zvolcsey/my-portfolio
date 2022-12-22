@@ -16,9 +16,8 @@
 .line {
   width: 5rem;
   height: 0.1rem;
-  color: #fff;
-  background: #fff;
-  border: 0.1rem solid #fff;
+  background: var(--secondary-bg-color);
+  border: 0.1rem solid var(--secondary-bg-color);
 }
 
 @media (min-width: 40rem) {

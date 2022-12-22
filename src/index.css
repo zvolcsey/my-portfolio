@@ -1,7 +1,18 @@
 :root {
   --main-color: #23bde4;
-  --dark-theme: #2e2e2e;
-  --container-background: #383838;
+  --main-bg-color: #2e2e2e;
+  --secondary-bg-color: #383838;
+  --main-text-color: #fff;
+  --secondary-text-color: #b9b9b9;
+  --theme-switch-color: #505050;
+}
+
+:root:has(input[type='checkbox']:not(:checked)#theme-switch) {
+  --main-bg-color: #f8f8f8;
+  --secondary-bg-color: #e9e9e9;
+  --main-text-color: #000;
+  --secondary-text-color: #6e6e6e;
+  --theme-switch-color: #d4d4d4;
 }
 
 * {
@@ -17,7 +28,7 @@ html {
 body {
   margin: 0;
   height: 100vh;
-  background: var(--dark-theme);
+  background: var(--main-bg-color);
   font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
     'Helvetica Neue', sans-serif;
@@ -28,7 +39,7 @@ body {
 #root {
   height: 100vh;
   display: grid;
-  grid-template-rows: 8rem auto 8rem;
+  grid-template-rows: 10rem auto 8rem;
 }
 
 a {
@@ -43,6 +54,10 @@ a:focus {
 .a:focus-visible {
   outline: 0.1rem solid var(--main-color);
   border-radius: 0.2rem;
+}
+
+input[type='checkbox']#theme-switch {
+  appearance: none;
 }
 
 code {

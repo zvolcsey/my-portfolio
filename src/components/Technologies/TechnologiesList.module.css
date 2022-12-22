@@ -5,5 +5,5 @@
   list-style: none;
   flex-wrap: wrap;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--main-text-color);
 }

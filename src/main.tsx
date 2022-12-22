@@ -23,25 +23,25 @@ const ErrorPage = lazy(() => {
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
       {
         index: true,
-        element: <HomePage />
+        element: <HomePage />,
       },
       {
-        path: "/projects",
-        element: <ProjectsPage />
+        path: '/projects',
+        element: <ProjectsPage />,
       },
       {
-        path: "/about",
-        element: <AboutPage />
-      }
-    ]
-  }
-])
+        path: '/about',
+        element: <AboutPage />,
+      },
+    ],
+  },
+]);
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>

@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: var(--main-text-color);
 }
 
 .notFoundTitle {
@@ -12,7 +12,7 @@
 }
 
 .notFoundText {
-  color: #a5a5a5;
+  color: var(--secondary-text-color);
   padding-bottom: 1.5rem;
 }
 

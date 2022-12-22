@@ -1,5 +1,5 @@
 .brand {
-  color: #fff;
+  color: var(--main-text-color);
   font-size: 2rem;
   padding: 0.2rem;
 }

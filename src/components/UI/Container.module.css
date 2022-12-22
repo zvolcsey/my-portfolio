@@ -1,11 +1,11 @@
 .container {
   position: relative;
   padding: 1rem 0;
-  background-color: var(--container-background);
+  background-color: var(--secondary-bg-color);
 }
 
 .container > h2 {
-  color: #fff;
+  color: var(--main-text-color);
   text-align: center;
   text-transform: capitalize;
   font-size: 1.2rem;

@@ -5,9 +5,10 @@
 .speech-bubble {
   position: relative;
   padding: 3.5rem 1rem 3rem 1rem;
-  border: 0.1rem solid #fff;
-  background-color: #fff;
+  border: 0.1rem solid var(--main-bg-color);
+  background-color: var(--main-bg-color);
   border-radius: 0.3rem;
+  color: var(--main-text-color);
 }
 
 .speech-bubble p {
@@ -25,13 +26,13 @@
 
 .left-speech-bubble::before {
   border-left: 1rem solid transparent;
-  border-right: 1rem solid #fff;
+  border-right: 1rem solid var(--main-bg-color);
   transform: rotate(-45deg);
   left: 3rem;
 }
 
 .right-speech-bubble::before {
-  border-left: 1rem solid #fff;
+  border-left: 1rem solid var(--main-bg-color);
   border-right: 1rem solid transparent;
   transform: rotate(45deg);
   right: 3rem;

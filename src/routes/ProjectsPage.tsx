@@ -10,7 +10,6 @@ import ExternalLink from '../components/UI/ExternalLink';
 import Divide from '../components/UI/Divide';
 
 const ProjectsPage: FC<Record<string, never>> = () => {
-
   useEffect(() => {
     document.title = 'My Projects | Zoltán Völcsey';
   }, []);

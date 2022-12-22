@@ -10,7 +10,7 @@
 }
 
 .hero-text {
-  color: #fff;
+  color: var(--main-text-color);
   text-align: center;
 }
 
@@ -68,7 +68,7 @@ h1 > span:not(:first-child) {
 }
 
 .secondary {
-  color: #fff;
+  color: var(--main-text-color);
 }
 
 .secondary > svg {
