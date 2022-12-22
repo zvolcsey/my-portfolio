@@ -27,7 +27,7 @@
 
 `main.tsx` - The entry point of the client.
 
-`App.tsx` - The main component of the component tree. This contains the main layout route and other routes.
+`root.tsx` - The main component of the component tree. This contains the main layout route and other routes.
 
 `index.css` - This file contains the global css rules.
 
@@ -40,9 +40,14 @@
 - compnents and
 - css files.
 
-`pages/` - This folder contains
+`routes/` - This folder contains
 
 - the page related components and
+- css files.
+
+`errors/` - This folder contains
+
+- the error pages related components and
 - css files.
 
 ## Run locally
@@ -51,7 +56,7 @@ You need have Node v18.12.1 or higher.
 
 ```
   npm ci
-  npm start
+  npm run dev
 ```
 
 ## Port
