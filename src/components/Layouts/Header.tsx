@@ -1,9 +1,9 @@
-import { FC, useState } from 'react';
+import { FC } from 'react';
 import Brand from '../Brand/Brand';
 import NavItem from '../Navigations/NavItem';
 
 import styles from './Header.module.css';
-import ThemeSwitch from '../ThemeSwitcher/ThemeSwitch';
+import ThemeSwitch from '../ThemeSwitch/ThemeSwitch';
 
 const Header: FC<Record<string, never>> = () => {
   return (
