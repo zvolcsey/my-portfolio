@@ -35,7 +35,7 @@ const ProjectItemActions: FC<{ actions: (string | undefined)[] }> = (props) => {
       {tryItLink && (
         <li className={styles.action}>
           <ExternalLink href={tryItLink}>
-            Let's&nbsp;Try&nbsp;It&nbsp;
+            Let&apos;s&nbsp;Try&nbsp;It&nbsp;
             <FontAwesomeIcon icon={faArrowRightLong} />
           </ExternalLink>
         </li>
