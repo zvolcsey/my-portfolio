@@ -8,10 +8,6 @@
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.2.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.1",
     "@types/node": "^16.11.35",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.4",
@@ -26,7 +22,9 @@
     "build": "tsc && vite build",
     "prettier:check": "prettier --check ./src/",
     "prettier:write": "prettier --write ./src/",
-    "eslint": "eslint ./src/"
+    "eslint": "eslint ./src/",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "browserslist": {
     "production": [
@@ -41,14 +39,22 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
     "@types/eslint-config-prettier": "^6.11.0",
-    "@typescript-eslint/eslint-plugin": "^5.36.2",
-    "@typescript-eslint/parser": "^5.36.2",
+    "@types/eslint-plugin-prettier": "^3.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
     "@vitejs/plugin-react": "^3.0.0",
+    "@vitest/coverage-c8": "^0.26.2",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
-    "jest": "^27.5.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "jsdom": "^20.0.3",
     "prettier": "2.7.1",
-    "vite": "^4.0.1"
+    "vite": "^4.0.1",
+    "vitest": "^0.26.2"
   }
 }
