@@ -60,6 +60,10 @@ const AboutPage: FC<Record<string, never>> = () => {
               project.
             </p>
             <p>
+              I am currently working on open-source projects to help other
+              developers and improve my skills.
+            </p>
+            <p>
               You can also check out smaller projects on my{' '}
               <ExternalLink
                 href="https://github.com/zvolcsey"
