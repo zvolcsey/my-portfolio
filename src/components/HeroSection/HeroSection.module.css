@@ -15,12 +15,12 @@
 }
 
 .title {
-  margin: 2rem 0;
+  margin: 3.5rem 0 2rem 0;
   font-size: 1.5rem;
 }
 
 .subtitle {
-  margin-bottom: 3rem;
+  margin-bottom: 3.5rem;
   font-size: 1.2rem;
   font-weight: 400;
 }
@@ -51,6 +51,7 @@ h1 > span:not(:first-child) {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 3rem;
 }
 
 .item {

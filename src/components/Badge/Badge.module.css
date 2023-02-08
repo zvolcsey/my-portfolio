@@ -1,9 +1,8 @@
 .badge {
   display: inline-block;
   position: relative;
-  padding: 0.6rem 1rem;
-  border-bottom: 0.1rem solid var(--main-text-color);
-  color: var(--main-text-color);
+  padding: 0.6rem;
+  color: var(--secondary-text-color);
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }

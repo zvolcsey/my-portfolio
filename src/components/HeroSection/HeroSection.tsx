@@ -9,7 +9,7 @@ import Badge from '../Badge/Badge';
 const HeroSection: FC<Record<string, never>> = () => {
   return (
     <section className={styles['hero-section']}>
-      <Badge className={styles.badge}>Full Stack Web Developer</Badge>
+      <Badge className={styles.badge}>Open-Source Contributor</Badge>
       <h1 className={`${styles['hero-text']} ${styles.title}`}>
         <span className={styles.block}>Building</span> beautiful and secure
         <span
@@ -21,6 +21,7 @@ const HeroSection: FC<Record<string, never>> = () => {
       <h2 className={`${styles['hero-text']} ${styles.subtitle}`}>
         with maintainable code
       </h2>
+      <Badge className={styles.badge}>Full Stack Web Developer</Badge>
       <ul className={styles.actions}>
         <li className={styles.item}>
           <Link to="/projects" className={`${styles.link} ${styles.primary}`}>
