@@ -12,11 +12,7 @@ const HeroSection: FC<Record<string, never>> = () => {
       <Badge className={styles.badge}>Open-Source Contributor</Badge>
       <h1 className={`${styles['hero-text']} ${styles.title}`}>
         <span className={styles.block}>Building</span> beautiful and secure
-        <span
-          className={`${styles.block} ${styles.highlight} ${styles.rotate}`}
-        >
-          web apps
-        </span>
+        <span className={`${styles.block} ${styles.highlight}`}>web apps</span>
       </h1>
       <h2 className={`${styles['hero-text']} ${styles.subtitle}`}>
         with maintainable code

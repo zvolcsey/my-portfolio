@@ -3,10 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.brand {
-  margin-bottom: 1rem;
+  gap: 1rem;
 }
 
 .items {

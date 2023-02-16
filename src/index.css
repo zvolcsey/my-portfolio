@@ -39,7 +39,7 @@ body {
 #root {
   height: 100vh;
   display: grid;
-  grid-template-rows: 10rem auto 8rem;
+  grid-template-rows: 10rem auto 12rem;
 }
 
 a {
@@ -63,4 +63,10 @@ input[type='checkbox']#theme-switch {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media (min-width: 48rem) {
+  #root {
+    grid-template-rows: 10rem auto 8rem;
+  }
 }

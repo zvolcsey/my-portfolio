@@ -1,0 +1,40 @@
+.quote-section {
+  position: relative;
+  margin: 2rem 0 4rem 0;
+  padding: 4rem 1rem;
+}
+
+.quote-text {
+  text-align: center;
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--main-text-color);
+}
+
+.quote-text span {
+  display: block;
+  font-style: normal;
+  padding: 0.5rem;
+}
+
+.quote-section::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: skewY(-5deg);
+  background: var(--secondary-bg-color);
+  z-index: -1;
+}
+
+@media (min-width: 26rem) {
+  .quote-section {
+    padding: 6rem 1rem;
+  }
+}
+
+@media (min-width: 48rem) {
+  .quote-section {
+    margin-top: 4rem;
+    padding: 10rem 1rem;
+  }
+}

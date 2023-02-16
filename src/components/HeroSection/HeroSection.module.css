@@ -1,5 +1,5 @@
 .hero-section {
-  margin: 5rem auto;
+  margin: 4rem auto 0 auto;
 }
 
 .badge {
@@ -15,12 +15,12 @@
 }
 
 .title {
-  margin: 3.5rem 0 2rem 0;
+  margin: 2rem 0;
   font-size: 1.5rem;
 }
 
 .subtitle {
-  margin-bottom: 3.5rem;
+  margin-bottom: 2rem;
   font-size: 1.2rem;
   font-weight: 400;
 }
@@ -41,17 +41,13 @@ h1 > span:not(:first-child) {
   background-color: var(--main-color);
 }
 
-.rotate {
-  transform: rotate(6deg);
-}
-
 .actions {
   list-style: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .item {
@@ -108,12 +104,23 @@ h1 > span:not(:first-child) {
     display: inline-block;
   }
 
+  .title {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+
   .highlight {
     margin: 0 0 0 0.4rem;
   }
 
+  .subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
   .actions {
     flex-direction: row;
+    margin-top: 3rem;
   }
 
   .item {
@@ -131,10 +138,6 @@ h1 > span:not(:first-child) {
 @media (min-width: 90rem) {
   .badge {
     font-size: 1rem;
-  }
-
-  .hero-section {
-    margin: 10rem auto;
   }
 
   .title {

@@ -1,4 +1,4 @@
-# My personal portfolio
+# My Personal Portfolio
 
 ## Overview
 
@@ -16,8 +16,8 @@
 
 ## Routing
 
-- Home page (URL: /home)
-  - This page contains **a hero section**.
+- Home page (URL: /)
+  - This page contains **a hero section** and **a quote section**.
 - Projects page (URL: /projects)
   - This page contains **my projects** and **links to my other projects**.
 - About page (URL: /about)
