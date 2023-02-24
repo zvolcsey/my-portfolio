@@ -17,6 +17,20 @@ const projects: Project[] = [
     tryItLink: 'https://zvolcsey-conduit-fullstack.onrender.com',
     seeOnGitHubLink: 'https://github.com/zvolcsey/realworld-implementation',
   },
+  {
+    id: '2',
+    category: 'Frontend Web',
+    title: 'Battleship Game',
+    technologies: [
+      'TypeScript',
+      'React',
+      'CSS Modules',
+      'Redux Toolkit',
+      'Chakra UI',
+    ],
+    tryItLink: undefined,
+    seeOnGitHubLink: 'https://github.com/zvolcsey/battleship-game',
+  },
 ];
 
 export default projects;

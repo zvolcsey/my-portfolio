@@ -1,12 +1,15 @@
 .actions {
+  height: 4.5rem;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   list-style: none;
 }
 
 .actions a {
   margin: 0 0 1rem 0;
+  font-size: 1rem;
 }
 
 .actions a:last-of-type {
@@ -16,10 +19,4 @@
 .action {
   position: relative;
   padding: 0.2rem;
-}
-
-@media (width > 90rem) {
-  .action {
-    font-size: 1.4rem;
-  }
 }

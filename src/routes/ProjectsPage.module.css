@@ -1,33 +1,8 @@
-.container:first-of-type {
-  margin-top: 11rem;
-}
-
-.container:last-of-type {
-  margin-bottom: 4rem;
+.container {
+  margin: 3.5rem 0;
 }
 
 .projects-title {
-  position: relative;
-  top: -8rem;
-}
-
-.divide {
-  max-width: 43rem;
-  margin: 1.6rem auto 1rem auto;
-}
-
-.other-projects {
-  display: flex;
-  padding: 2rem 0;
-  list-style: none;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 1rem;
-  font-weight: 300;
-}
-
-.item {
-  position: relative;
-  padding: 0.2rem;
+  color: var(--main-text-color);
+  margin: 0 0 2rem 0.8rem;
 }

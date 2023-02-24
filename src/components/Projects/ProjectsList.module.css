@@ -1,7 +1,30 @@
 .items {
-  margin: 0 1rem;
+  --_spacer: 1rem;
+  width: 100%;
+  max-width: 100vw;
   list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 85%;
+  overflow-x: scroll;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: var(--_spacer, 1rem);
+  padding: 0 var(--_spacer, 1rem) var(--_spacer, 1rem) var(--_spacer, 1rem);
+  gap: var(--_spacer, 1rem);
+}
+
+@media (min-width: 21rem) {
+  .items {
+    grid-auto-columns: 20rem;
+  }
+}
+
+@media (min-width: 42.4rem) {
+  .items {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

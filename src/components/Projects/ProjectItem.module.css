@@ -1,16 +1,16 @@
 .item {
-  position: relative;
-  top: -6rem;
-  padding: 0.6rem;
-  height: 22rem;
+  width: 100%;
+  max-width: 20rem;
+  height: 13rem;
   border: 0.2rem solid var(--main-color);
   background: var(--main-bg-color);
   border-radius: 0.6rem;
-  box-shadow: 0.1rem 0.1rem 0.8rem #000;
+  box-shadow: 0.1rem 0.1rem 0.4rem #000;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  scroll-snap-align: start;
 }
 
 .badge {
@@ -19,40 +19,8 @@
   font-size: 0.8rem;
 }
 
-.content {
-  height: 100%;
-}
-
-.content > h3 {
+h3 {
   color: var(--main-color);
   text-align: center;
-  margin: 2rem 0;
-}
-
-@media (min-width: 26rem) {
-  .item {
-    width: 20rem;
-  }
-
-  .content > h3 {
-    font-size: 1.4rem;
-  }
-}
-
-@media (width > 90rem) {
-  .item {
-    height: 25rem;
-  }
-
-  .badge {
-    font-size: 1.2rem;
-  }
-
-  .content {
-    height: 20rem;
-  }
-
-  .technologies-list {
-    font-size: 1.2rem;
-  }
+  font-size: 1.4rem;
 }
