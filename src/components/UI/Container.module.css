@@ -10,3 +10,13 @@
   text-transform: capitalize;
   font-size: 1.2rem;
 }
+
+@media (width > 90rem) {
+  .container {
+    padding: 1.2rem 0;
+  }
+
+  .container > h2 {
+    font-size: 1.6rem;
+  }
+}

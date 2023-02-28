@@ -15,7 +15,6 @@ const ProjectItemActions: FC<{ actions: (string | undefined)[] }> = (props) => {
       {seeOnGitHubLink && (
         <li className={styles.action}>
           <ExternalLink href={seeOnGitHubLink}>
-            <FontAwesomeIcon icon={faEye} />
             &nbsp;See&nbsp;On&nbsp;
             <FontAwesomeIcon icon={faGithub} />
             &nbsp;GitHub&nbsp;

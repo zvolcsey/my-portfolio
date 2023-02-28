@@ -20,3 +20,13 @@
   position: relative;
   padding: 0.2rem;
 }
+
+@media (width > 90rem) {
+  .actions {
+    height: 5rem;
+  }
+
+  .action a {
+    font-size: 1.4rem;
+  }
+}
