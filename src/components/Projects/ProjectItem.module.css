@@ -22,13 +22,3 @@ h3 {
   text-align: center;
   font-size: 1.4rem;
 }
-
-@media (width > 90rem) {
-  .badge {
-    font-size: 1.2rem;
-  }
-
-  h3 {
-    font-size: 1.6rem;
-  }
-}
