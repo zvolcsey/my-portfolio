@@ -1,4 +1,4 @@
-name: Test Project
+name: Check Project
 on: [push, workflow_dispatch]
 jobs:
   check:
