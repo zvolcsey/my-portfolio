@@ -52,7 +52,7 @@
 
 ## Run locally
 
-You need have Node v18.12.1 or higher.
+You need have Node.js 18 / 20+.
 
 ```
   npm ci
