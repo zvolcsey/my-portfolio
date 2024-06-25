@@ -1,6 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
+  "engine": ">=18 <19 || >=20",
   "private": true,
   "type": "module",
   "dependencies": {
